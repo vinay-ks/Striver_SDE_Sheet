@@ -6,7 +6,6 @@ using namespace std;
 #define FOR(I,start, end)  for(int I=start; I<end; I++)
 /* In template:
         add macro to For loop
-
 */
 
 int nCr(int n, int r){
