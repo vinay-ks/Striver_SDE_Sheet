@@ -30,13 +30,7 @@ void hello3(){
 
     printf("\n============START==============\n");
 
-    string ans = "asdfgh";
-    string temp = "";
 
-    ans.pop_back();
-
-    char ch = 'w';
-    cout<<"xx "<<ans +temp<<" xx";
 
 
     printf("\n++====+++=== DONE ===+++====++\n");
