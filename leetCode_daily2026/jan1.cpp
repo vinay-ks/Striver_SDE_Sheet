@@ -31,6 +31,19 @@ vector<int> plusOne(vector<int>& digits) {
     return digits;
 }
 
+vector<int> plusOne_2(vector<int>& digits) {
+    for (auto it = digits.rbegin(); it != digits.rend(); ++it) {
+        if (*it != 9) {
+            ++(*it);
+            return digits;
+        }
+        *it = 0;
+    }
+    digits.insert(digits.begin(), 1);
+    return digits;
+}
+
+
 int main()
 {
     // Test case 1
