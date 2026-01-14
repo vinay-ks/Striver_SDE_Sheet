@@ -1,3 +1,6 @@
+
+# Link: https://leetcode.com/problems/minimum-time-visiting-all-points/?envType=daily-question&envId=2026-01-12
+
 class Solution:
     def minTimeToVisitAllPoints(self, points: list[list[int]]) -> int:
         total_time = 0

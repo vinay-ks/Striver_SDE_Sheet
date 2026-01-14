@@ -1,3 +1,6 @@
+
+# Link: https://leetcode.com/problems/minimum-time-visiting-all-points/?envType=daily-question&envId=2026-01-03
+
 def numOfWays(self, n: int) -> int:
     MOD = 10**9 + 7
 
